@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Rose', cursive;
+    font-family: 'Source Serif Pro', serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../assets/background.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* header */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px 0 60px;
+    margin-top: 55px;
+    
+}
+
+.list {
+   color: #ffc233;
+   display: flex;
+   align-items: center;
+   gap: 63px;
+   list-style: none;
+   font-family: "Red Rose";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 22px;
+}
+
+.logo, .list {
+    cursor: pointer;
+}
+
+.top-btn {
+    padding: 12px 40px;
+    background-color: #ff505f;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;    
+}
+
+/* main Section */
+
+.section {
+    max-width: 1154px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 119px;
+}
+
+.heading {
+    font-family: "Red Rose", cursive;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #ffc233;
+}
+
+.down-btn {
+    padding: 24px 56px;
+    margin-top: 64px;
+    background-color: #ff505f;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 10px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;    
+}
+
+/* sticker */
+.image {
+    padding-left: 80%;
+}
+  
+
